@@ -1,0 +1,51 @@
+---
+title: "Assignment 12"
+author: "Sriya Reddy"
+date: "2023-04-02"
+output:
+  word_document: default
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+For this assignment, I used my code from a previous assignment and ported it to a Word file. I followed the code I wrote for Assignment 7 where I used different functions on the mtcars dataset.
+
+I loaded the data into the variable `cars` with the command
+
+
+```{r}
+cars <- mtcars
+cars
+```
+
+
+I used the head command to get 6 rows of the dataset
+
+```{r}
+head(cars)
+```
+The function plot generates the follwoing plot. 
+```{r}
+plot(cars)
+```
+
+The summary function provides the mean, median, quartiles and min/max values for each parameter. 
+```{r}
+summary(cars)
+```
+
+Earlier, I had created a function to generate the histogram for the histogram of the carb. I obtain the following plot. 
+```{r}
+car_func <- function(x, ...)
+  UseMethod("car_func")
+car_func.carb_hist <- function(x) hist(x$carb)
+car_func.carb_hist(cars)
+```
+This is the markdown file for my code. 
+The process of creating the Word/PDF/HTML file from the code directly is super interesting and easy to use!
