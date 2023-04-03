@@ -105,7 +105,7 @@ Overall, I found the process of using R Markdown to be easy and very interesting
 The most interesting aspect was the automatic generation of the output given the code block. 
 I felt this was really useful as it helps us avoid the process of copying and pasting the output for each line of our code.
 
-My generated markdown document in Word format can be fiund [here](https://github.com/venatisriya/assignment12/blob/main/Assignment12.docx) and the associated .Rmd file can be found [here](https://github.com/venatisriya/assignment12/blob/main/Assignment12.Rmd).
+My generated markdown document in Word format can be found [here](https://github.com/venatisriya/assignment12/blob/main/Assignment12.docx) and the associated .Rmd file can be found [here](https://github.com/venatisriya/assignment12/blob/main/Assignment12.Rmd).
 
 
 
