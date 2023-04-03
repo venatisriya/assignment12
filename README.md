@@ -1,7 +1,7 @@
 # Assignment 12
 ## Sriya Reddy 
 
-For this assignment, I used my code from a previous assignment and ported it to a Word file. I followed the code I wrote for Assignment 7 where I used different functions on the mtcars dataset.
+For this assignment to use R Markdown, I used my code from a previous assignment and ported it to a Word file. I followed the code I wrote for Assignment 7 where I used different functions on the mtcars dataset.
 I used the command `cars <- mtcars` to load the dataset. 
 ```
 cars <- mtcars
